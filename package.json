@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-forex-bot",
+  "name": "PASIYA-MD-forex-bot",
   "version": "1.0.0",
   "description": "24/7 WhatsApp Forex/Gold Signal Bot (Node.js + Baileys + technicalindicators)",
   "main": "src/index.js",
