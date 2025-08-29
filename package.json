@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-forex-bot",
+  "version": "1.0.0",
+  "description": "24/7 WhatsApp Forex/Gold Signal Bot (Node.js + Baileys + technicalindicators)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:pm2": "pm2 start src/index.js --name whatsapp-forex-bot --time",
+    "stop:pm2": "pm2 stop whatsapp-forex-bot",
+    "logs": "pm2 logs whatsapp-forex-bot"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.7.10",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "node-cron": "^3.0.3",
+    "pino": "^9.4.0",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "pm2": "^5.4.2"
+  }
+}
